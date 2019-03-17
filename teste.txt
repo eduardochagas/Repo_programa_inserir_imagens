@@ -1,0 +1,5 @@
+O comando env também é utilizado para modificar o valor de uma variável em uma execução especifica. Por exemplo, se executarmos o arquivo script Script_Variavel.sh, será imprimido no Terminal o valor da variável $TESTE (que já foi configurarda antes com o valor Linux). img27 eu posso usar o comando env dessa forma: img28 o que o comando env faz nesse caso, ele atribui o valor Windows a variável $TESTE, e ao executar o arquivo Script_Variavel.sh, o programa executará a variável com o novo valor Windows. img29 se agora digitarmos echo $TESTE no Terminal, img30 (ao digitar novamente echo $TESTE, a variável voltou com o valor Linux) a variável volta para o seu valor original (que é Linux), porque o comando env  alterou o valor da variável somente naquela execução do arquivo Script_Variavel.sh  em especifico. Para removermos as variaveis que criamos utilizamos o comando unset nomeDaVariavel. img31 se digitamos echo $TESTE, a variável que criamos será excluida do sistema.
+
+
+
+
